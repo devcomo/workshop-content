@@ -5037,6 +5037,7 @@ h2 {
     width: 600px;
     height: 400px;
     position: fixed;
+    font-size: 12px;
     top: 40px;
     right: -40px;
 
@@ -5046,8 +5047,8 @@ h2 {
 #stop-the-madness {
   position:fixed;
   display:block;
-  bottom:0;
-  right:0;
+  bottom:3px;
+  right:3px;
 }
 
 #center {
