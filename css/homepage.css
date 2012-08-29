@@ -4989,6 +4989,27 @@ a.badge:hover {
 /* Custom Styles */
 
 
+html, body, input, select, textarea {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+h1, h2, h3 {
+  font-family: "MetaPro", "Lucida Grande", sans-serif;
+}
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  }
+h2 {
+  margin-bottom: 8px;
+  color: #444;
+  border-bottom: solid 1px #999;
+
+}
 body  {
   background: url(../img/grey.png);
 }
@@ -5095,6 +5116,7 @@ body  {
     color: rgba(0,0,0,0.9);
     border-radius: 10px;
 }
+
 /*
 Set up each row to have a different animation duration
 and alternating y-axis rotation directions.
