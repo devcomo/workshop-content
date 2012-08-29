@@ -101,4 +101,10 @@ $(function() {
 
   });
 
+  $("#stop-the-madness").click(function(e) {
+
+    e.preventDefault();
+    $("#stage").toggleClass("nonmad");
+  });
+
 });
