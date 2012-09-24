@@ -585,7 +585,7 @@ dd {
 }
 
 hr {
-  margin: 18px 0;
+  margin: 11px 0;
   border: 0;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #ffffff;
@@ -4998,7 +4998,7 @@ html, body, input, select, textarea {
   line-height: 1.5;
   color: #333;
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: "MetaPro", "Lucida Grande", sans-serif;
 }
 h1 {
@@ -5010,7 +5010,19 @@ h2 {
   color: #444;
   border-bottom: solid 1px #999;
 }
+h4 {
+  margin-top: 6px;
+}
 
+#topics {
+  list-style: none;
+}
+#topics li {
+  border: solid 4px rgba(255, 255, 255, .5);
+  margin-top: 9px;
+  padding: 8px;
+  border-radius: 3px;
+}
 .avatar {
   text-align: center;
   vertical-align: middle;
