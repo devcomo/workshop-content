@@ -89,6 +89,8 @@ $(function() {
 
   getFollowers("comorichweb", function(users) {
 
+    setTimeout(function() {
+
       $(".poster").each(function(i) {
 
         var user = users[i];
@@ -98,6 +100,8 @@ $(function() {
         $(this).html(grid_item_html);
 
       });
+
+    }, 2000);
 
   });
 
